@@ -6,6 +6,8 @@ import NavBar from './componentes/NavBar/NavBar';
 import ItemListConteiner from './componentes/ItemListConteiner/ItemListConteiner';
 import Articulos from './componentes/Articulos/Articulos';
 import Hooks from './componentes/Hooks/Hooks';
+import { Routes } from 'react-router-dom';
+
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
     <h1>Productos Nuevos</h1>
       <Articulos titulo="Cinturon" img="https://d3ugyf2ht6aenh.cloudfront.net/stores/096/971/products/cinto-more-tackles-11-c95a7b5a72f342257216650858295093-640-0.webp">
       </Articulos>
-     
+      
     }
     <Hooks/>
     
